@@ -38,8 +38,8 @@
                 $mail->isSMTP();
                 $mail->Host = 'smtp.gmail.com'; 
                 $mail->SMTPAuth = true;
-                $mail->Username = 'manoharmaripe1912@gmail.com'; 
-                $mail->Password = 'sxrdqkdaqgnffbug'; 
+                $mail->Username = ''; 
+                $mail->Password = ''; // removed for security reason 
                 $mail->SMTPSecure = 'ssl';
                 $mail->Port = 465;
                 
